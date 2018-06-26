@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=BioRhyme|Bungee');
-@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+@import url('https://fonts.googleapis.com/css?family=Play|Work+Sans');
 
 body {
-    background: #05386B;
-    font-family: 'PT Sans Narrow', sans-serif;
+    background: #9D8D8F;
+    font-family: 'Work Sans', sans-serif;
 }
 nav {
-    background: #5CDB95;
+    background: #5A5560;
     text-shadow: 1.2px 1.3px 1.4px black;
     color: white;
+    border-bottom: 1px solid #FAED26;
 }
 ul.navbar-nav > li {
     border-bottom: 1px solid white;
@@ -20,7 +20,12 @@ ul.navbar-nav > li:last-child {
 
 span.title {
     color: whitesmoke;
-    font-family: 'Bungee', cursive;
+    font-family: 'Play', sans-serif;
+    font-size: 2em;
+}
+
+#main-container {
+    border: 1px solid red;
 }
 
 i {
@@ -29,8 +34,12 @@ i {
     padding: .2em;
 }
 
+.info {
+    border: 1.5px solid #FAED26;
+    background: whitesmoke;
+}
 
-div#fitterInfo  h3 {
+div#fitterInfo h3 {
     font-size: 2rem;
     font-weight: bold;
 }
@@ -39,6 +48,7 @@ div#fitterInfo  h3 {
     position: relative;
     text-align: center;
     color: white;
+    border-bottom: 1px solid #FAED26;
 }
 
 .banner-text {
@@ -54,8 +64,9 @@ div#fitterInfo  h3 {
 }
 
 #mainJumbo {
-    background: #8EE4AF;
+    background: #46344E;
     padding: 0px 15px 7px 15px;
+    width: 100%;
 
 }
 
@@ -68,18 +79,20 @@ div#fitterInfo  h3 {
 }
 
 .card {
-    border: 2px solid #05386B;
+    border: 2px solid #FAED26;
     box-shadow: 4px 8px;
 }
 
 
   span#testimonialHeader {
-      text-shadow: 1px 1px white;
+      color: white;
+      text-shadow: 1.5px 2px black;
+      font-size: .8em;
   }
   .testimonials {
       padding: 0px;
       margin-top: 10px;
-      background: #5CDB95;
+      background: #5A5560;
       margin-bottom: 0px; 
 
   }
@@ -120,7 +133,11 @@ div#fitterInfo  h3 {
     }
 }
 
-
+    @media (max-width: 600px) {
+        .banner-text p {
+            font-size: 1.8em;
+        }
+    }
 
   @media (min-width: 768px) {
 
