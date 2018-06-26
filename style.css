@@ -17,6 +17,7 @@ ul.navbar-nav > li:last-child {
     border-bottom: none;
 }
 
+
 span.title {
     color: whitesmoke;
     font-family: 'Bungee', cursive;
@@ -58,6 +59,10 @@ div#fitterInfo  h3 {
 
 }
 
+#fitterInfo {
+    justify-content: center;
+}
+
 #fitterInfo ~ div {
     margin-top: 20px;
 }
@@ -92,20 +97,41 @@ div#fitterInfo  h3 {
       font-size: 5em;
   }
   
+  .fa-twitter {
+      color: #00aced;
+  }
 
 
 
 
-  /* card carousel  */
 
+/* media queries  */
 
-  @media (min-width: 768px) {
+  @media (min-width: 980px) {
     ul.navbar-nav > li {
         border-bottom: none;
     }
     ul.navbar-nav > li:last-child {
         border-bottom: none;
     }
+
+    .banner-text p {
+        font-size: 4rem;
+    }
+}
+
+
+
+  @media (min-width: 768px) {
+
+    .banner-text {
+        position: absolute;
+        top: 45%;
+        left: 45%;
+        transform: translate(-45%, -45%);
+        text-shadow: 1.2px 1.3px 1.4px black;
+    }
+     /* card carousel  */
     /* show 3 items */
     .carousel-inner .active,
     .carousel-inner .active + .carousel-item,
@@ -183,15 +209,3 @@ div#fitterInfo  h3 {
     }
   }
   
-/* media queries  */
-
-@media only screen and (min-width: 800px) {
-    #fitterInfo {
-        justify-content: center;
-        text-align: center;
-    }
-}
-
-@media only screen and (min-width: 800px) {
-
-}
