@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Play|Work+Sans');
 
 body {
-    background: #D9D9D9;
+    background: url('img/wall_06.jpg');
     font-family: 'Work Sans', sans-serif;
 }
 nav {
-    background: #4484CE;
     text-shadow: 1.2px 1.3px 1.4px black;
-    color: white;
-}
+    opacity: 0.9;
+  }
 
 ul.navbar-nav > li {
     border-bottom: 1px solid white;
@@ -38,10 +37,6 @@ span.title {
     font-size: 2em;
 }
 
-#main-container {
-    /* border: 1px solid red; */
-}
-
 i {
     background: #05386B;
     border-radius: 20%;
@@ -50,9 +45,11 @@ i {
 
 .info {
     /* border: 1px solid #FF3B3F; */
-    background: #F19F4D;
-    color: white;
+    background: hsl(50, 97%, 61%);
+    color: black;
     opacity: 0.9;
+    padding: 0px;
+    margin-bottom: 9px;
 }
 
 div#fitterInfo h3 {
@@ -79,7 +76,7 @@ div#fitterInfo h3 {
 }
 
 #mainJumbo {
-    padding: 0px 15px 7px 15px;
+    padding-bottom: 3px;
     width: 100%;
     background: #D9D9D9;
 
@@ -107,17 +104,17 @@ div#fitterInfo h3 {
   .testimonials {
       padding: 0px;
       margin-top: 10px;
-      background: #F9CF00;
+      background: hsl(22, 11%, 15%);
       margin-bottom: 0px; 
 
   }
 
   .carousel-control-prev:hover {
-    background: #5CDB95;
+    background: #FAED26;
     opacity: 0.5;
   }
   .carousel-control-next:hover {
-    background: #5CDB95;
+    background: #FAED26;
     opacity: 0.5;
   }
 
@@ -127,6 +124,10 @@ div#fitterInfo h3 {
   
   .fa-twitter {
       color: #00aced;
+  }
+
+  .fab {
+    border: 2px solid hsl(50, 97%, 61%);
   }
 
 
