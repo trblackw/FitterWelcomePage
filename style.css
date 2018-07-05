@@ -37,11 +37,6 @@ span.title {
     font-size: 2em;
 }
 
-i {
-    background: #05386B;
-    border-radius: 20%;
-    padding: .2em;
-}
 
 .info {
     /* border: 1px solid #FF3B3F; */
@@ -118,17 +113,43 @@ div#fitterInfo h3 {
     opacity: 0.5;
   }
 
-  .footerIcon {
-      font-size: 5em;
-  }
-  
-  .fa-twitter {
-      color: #00aced;
-  }
+  /* footer */
 
-  .fab {
-    border: 2px solid hsl(50, 97%, 61%);
+  i {
+      font-size: 30px;
   }
+  .social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.social {
+    -webkit-transform: scale(0.8);
+    /* Browser Variations: */
+    
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+
+/*
+   Multicoloured Hover Variations
+*/
+
+.fa-facebook:hover {
+    color: #3B5998;
+}
+.fa-twitter:hover {
+    color: #4099FF;
+}
+.fa-github:hover {
+    color: black;
+}
+.fa-instagram:hover {
+    color: #8a3ab9;
+}
 
 
 
